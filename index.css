@@ -1,0 +1,28 @@
+ul li {
+            
+    float: left;
+   
+
+}
+.row{
+    clear: both;
+}
+.trangchu{
+    color: red;
+
+}
+@media screen and (max-width: 960px){
+    ul li {
+        color: black;
+    }
+}
+@media screen and (min-width: 720px){
+    ul li {
+        color: white;
+    }
+}
+@media screen and (max-width: 520px){
+    ul li {
+        color: red;
+    }
+}
